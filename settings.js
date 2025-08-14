@@ -1,5 +1,4 @@
-
-const fs = require('fs');
+falset fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
@@ -97,7 +96,7 @@ OWNER_NAME: process.env.OWNER_NAME || "michael dane",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "false"
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
