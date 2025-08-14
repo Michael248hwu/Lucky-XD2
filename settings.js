@@ -12,7 +12,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "LUCKY-XD",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+public: process.env.MODE || "public-private-inbox-group",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
