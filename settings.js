@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~DME1DYyZ#CGtL2Sw0jAnKJ_kjlEyPPAWC5dDiFBhxfdxLqAVbJws",
+SESSION_ID: process.env.SESSION_ID || "lucky~bMUDAL6D#uHdg6Y-uJL5WJX57HGE5nF5WYJfH86zG1m6fDddnKEw",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -42,7 +42,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-      MENTION_REPLY: process.env.MENTION_REPLfalse"true",
+      MENTION_REPLY: process.env.MENTION_REPL || "true",
 // make true if want auto voice reply if someone menetion you 
 
      MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/4itzeu.jpg",
@@ -99,7 +99,7 @@ OWNER_NAME: process.env.OWNER_NAME || "michael dane",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false"
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "true",
